@@ -1,0 +1,6 @@
+/* Set the default box-sizing value for all elements on the page */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
