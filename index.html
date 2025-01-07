@@ -5,11 +5,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Etch-a-Sketch</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/coloris.css" />
+  <link rel="icon" type="image/x-icon" href="icon.png">
   <script src="sketch.js" defer></script>
+  <script src="coloris.js"></script>
 </head>
 
 <body>
+  <div class="game-box">
+    <h1>Etch · a · Sketch</h1>
+    <h2>Current Mode: Grid Selection</h2>
 
+    <div class="container"></div>
+
+    <div class="grid-buttons">
+      <button>2x2</button>
+      <button>3x3</button>
+      <button>4x4</button>
+      <button>5x5</button>
+      <button>6x6</button>
+      <button>7x7</button>
+      <button>8x8</button>
+      <button>9x9</button>
+      <button>10x10</button>
+      <button>11x11</button>
+      <button>12x12</button>
+      <button>13x13</button>
+      <button>14x14</button>
+      <button>15x15</button>
+      <button>16x16</button>
+      <button id="custom">Custom</button>
+      <div class="paint-tools">
+        <button hidden>Paint 🖌️</button>
+        <button id="eraser" hidden>Eraser 🧹</button>
+        <input id="color" class="hidden" type="button" value="Color 🎨" data-coloris>
+        <button id="reset" hidden>Reset Canvas 🗑️</button>
+      </div>
+
+
+    </div>
+  </div>
+
+  <footer>
+    <p>Rock Paper Scissors</p>
+    <p>Created by Michael F</p>
+  </footer>
 </body>
 
 </html>
